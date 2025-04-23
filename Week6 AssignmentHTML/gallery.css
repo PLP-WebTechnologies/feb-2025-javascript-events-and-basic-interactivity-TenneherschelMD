@@ -1,0 +1,46 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0pd;
+    overflow: hidden;
+    font-family: "gotham rounded";
+}
+
+.navbar a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: grey;
+
+}
+
+.navbar li{
+    float: left;
+}
+
+.gallery {
+    display: inline-block;
+    border: 1px solid color whitesmoke;
+    margin: 5 px;
+    width: 200px;
+}
+
+.gallery .description {
+    padding: 10px;
+    text-align: center;
+}
+
+.gallery:hover {
+    border: 1px solid purple;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}

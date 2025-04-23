@@ -1,0 +1,183 @@
+#assgn p{
+    background-color: rgb(164, 164, 201);
+    padding: 10px;
+    display: none;
+}
+
+#assgn:hover p{
+    display: block;
+}
+
+a:link{
+    color:antiquewhite
+}
+
+a:hover{
+    color: greenyellow;
+    font-size: 1.1em;
+}
+
+a:active{
+    color: blue;
+    font-size: 1.1em;
+}
+
+a:visited{
+    color: grey;
+}
+
+body {
+    margin: 0px;
+
+    border: 3px;
+    display: flow-root;
+
+    background-image: url(pexels-achraf210-1477156.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+
+    color: antiquewhite;
+}
+
+h1 {
+    font-family: "gotham rounded", "Lucida Sans";
+    color: antiquewhite;
+
+    border: 1px outset purple;
+    border-radius: 2px;
+
+    text-shadow: 3px 3px 5px red, -3px -3px 5px skyblue;
+
+    text-align: center;
+}
+
+h2 {
+    font-family: "gotham rounded", "Lucida Sans";
+    color: antiquewhite;
+
+    border: 1px outset purple;
+    border-radius: 2px;
+
+    text-shadow: 3px 3px 5px red, -3px -3px 5px skyblue;
+}
+
+p {
+    font-family: "verdana", "courier new";
+    color: antiquewhite;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0pd;
+    overflow: hidden;
+}
+
+.navbar a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: grey;
+
+}
+
+.navbar li{
+    float: left;
+}
+
+#img1 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img2 {
+    float: right;
+    margin-left: 10px;
+}
+
+#img3 {
+    float: left;
+    margin-right: 10px;
+}
+
+#img4 {
+    float: right;
+    margin-left: 10px;
+}
+
+#img5 {
+    float: left;
+    margin-right: 10px;
+}
+
+div{
+    border: 2px;
+    height: 75px;
+    overflow: auto;
+}
+
+li:hover{
+    background-color: grey;
+}
+
+li:not(:hover){
+    background-color: rgb(29, 15, 15);
+}
+
+li:nth-child(even){
+    background-color: black;
+}
+
+h2::first-letter{
+    font-size: 2em;
+    font-style: oblique;
+}
+
+p::first-line{
+    background-color: rgb(32, 32, 30);
+}
+
+p::selection{
+    color: white;
+    background-color: green;
+}
+
+
+#gal::after{
+    content: "🎉";
+}
+
+#val::after{
+    content: "🌹";
+}
+
+#det::after{
+    content: "🤷‍♀️";
+}
+
+#eff::after{
+    content: "🤢";
+}
+
+#feed::after{
+    content: "🍕";
+}
+
+#features li::marker{
+    content: "✔";
+    color: yellow;
+    font-size: 1.2em;
+}
+

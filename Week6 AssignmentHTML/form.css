@@ -1,0 +1,25 @@
+.navbar ul{
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0pd;
+    overflow: hidden;
+    font-family: "gotham rounded";
+}
+
+.navbar a{
+    color: antiquewhite;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: grey;
+
+}
+
+.navbar li{
+    float: left;
+}
